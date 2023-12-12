@@ -1,0 +1,165 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3601536600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able to get to YouTube website and serch for something",
+        "description": "",
+        "id": "youtube-searching-validation;user-should-be-able-to-get-to-youtube-website-and-serch-for-something;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1429509300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on google home page",
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.user_is_on_google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 292062100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the YouTube \"https://www.youtube.com/\" in GoogleSearch field of Google page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.youtube.com/",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchOnYouTubeStepDifination.user_enters_the_YouTube_in_GoogleSearch_field_of_Google_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2394738800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175047900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Google Search page",
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.user_should_land_on_Google_Search_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4227060700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on YouTube url",
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.user_clicks_on_YouTube_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121081600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should land on YouTube page",
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.user_should_land_on_YouTube_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6041875800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"Tom and Jerry\" in YouTubeSearch field of YouTube page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom and Jerry",
+                  "offset": 13
+                }
+              ],
+              "location": "SearchOnYouTubeStepDifination.user_enters_in_YouTubeSearch_field_of_YouTube_page(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5227938200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on YouTube Search button",
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.user_clicks_on_YouTube_Search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220494100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to see the search result successfully",
+            "match": {
+              "location": "SearchOnYouTubeStepDifination.user_should_be_able_to_see_the_search_result_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "YouTube searching validation",
+    "description": "",
+    "id": "youtube-searching-validation",
+    "keyword": "Feature",
+    "uri": "features/SearchOnYouTube.feature"
+  }
+]
